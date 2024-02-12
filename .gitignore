@@ -1,0 +1,5 @@
+dev/.venv
+dev/poetry.lock
+dev/output
+prd/.venv
+prd/poetry.lock
