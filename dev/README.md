@@ -25,6 +25,8 @@ docker-compose exec dev_mirusho bash
 ### ファイル実行
 ```
 poetry run python main.py
+
+poetry run python sheet.py
 ```
 
 
