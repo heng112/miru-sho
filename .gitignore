@@ -1,5 +1,8 @@
 dev/.venv
 dev/poetry.lock
 dev/output
+dev/credentials.json
+
 prd/.venv
 prd/poetry.lock
+.DS_Store

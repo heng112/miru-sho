@@ -3,7 +3,7 @@ services:
   # mirushot:
   #   build: ./prd
   #   volumes:
-  #     - .dmirusho:/src/.venv
+  #     - .mirusho:/src/.venv
   #     - ./prd:/src
   #   ports:
   #     - 8000:8000  # ホストマシンのポート8000を、docker内のポート8000に接続する
@@ -12,6 +12,7 @@ services:
     container_name: 'dev_mirusho'
     tty: true
     volumes:
-      - "./dev:/src"
+      # - ./dev/.venv:/src/.venv
+      - "./dev:/app"
     ports:
       - 8000:8000  # ホストマシンのポート8000を、docker内のポート8000に接続する
